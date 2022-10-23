@@ -1,0 +1,20 @@
+{
+  "name": "findmeahome",
+  "version": "0.1.0",
+  "description": "A tool to find a home",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs",
+    "dev": "node app.mjs"
+  },
+  "author": "Karl STEIN",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.1238.0",
+    "dotenv": "^16.0.3",
+    "jquery": "^3.6.1",
+    "jsdom": "^20.0.1",
+    "node-fetch": "^3.2.10",
+    "nodemailer": "^6.8.0"
+  }
+}
