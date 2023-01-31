@@ -4,8 +4,7 @@
   "description": "A tool to find a home",
   "main": "index.mjs",
   "scripts": {
-    "start": "node index.mjs",
-    "dev": "node app.mjs"
+    "dev": "node scan-petites-annonces.mjs"
   },
   "author": "Karl STEIN",
   "license": "MIT",
