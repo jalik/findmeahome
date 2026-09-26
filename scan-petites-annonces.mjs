@@ -2,7 +2,7 @@ import jQuery from 'jquery'
 import { JSDOM } from 'jsdom'
 import fetch from 'node-fetch'
 import { sendMail } from './lib/mail.mjs'
-import { loadPosts, savePosts } from './lib/db/posts.mjs'
+import { loadPosts, savePosts } from './lib/posts.mjs'
 import { S3_OBJECT_KEY } from './lib/env.mjs'
 
 /**
